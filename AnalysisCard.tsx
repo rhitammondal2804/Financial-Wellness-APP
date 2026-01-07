@@ -1,5 +1,5 @@
 import React from 'react';
-import { AIAnalysisResult, StressLevel, ChartDataPoint } from '../types.ts';
+import { AIAnalysisResult, StressLevel, ChartDataPoint } from '/types.ts';
 import { AlertTriangle, CheckCircle2, TrendingUp, Activity, ArrowRight, ShieldAlert, Target } from 'lucide-react';
 import { ResponsiveContainer, BarChart, Bar, XAxis, Tooltip as RechartsTooltip, Cell } from 'recharts';
 import clsx from 'clsx';
