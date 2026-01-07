@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Transaction, AIAnalysisResult } from './types';
-import { parseCSV, generateSampleData, aggregateDailySpending, aggregateCategories } from './services/dataUtils';
-import { analyzeSpendingHabits, extractTransactionsFromFile } from './services/geminiService';
-import { FileUpload } from './components/FileUpload';
-import { Charts } from './components/Charts';
-import { AnalysisCard } from './components/AnalysisCard';
-import { LoginPage } from './components/LoginPage';
-import { FilterBar, FilterState } from './components/FilterBar';
+import { parseCSV, generateSampleData, aggregateDailySpending, aggregateCategories } from './DataUtils';
+import { analyzeSpendingHabits, extractTransactionsFromFile } from './geminiService';
+import { FileUpload } from './FileUpload';
+import { Charts } from './Charts';
+import { AnalysisCard } from './AnalysisCard';
+import { LoginPage } from './LoginPage';
+import { FilterBar, FilterState } from './FilterBar';
 import { Wallet, ShieldCheck, RefreshCw, X, Sun, Moon, LogOut } from 'lucide-react';
 
 const App: React.FC = () => {
