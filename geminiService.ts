@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
-import { Transaction, AIAnalysisResult, StressLevel } from '../types';
+import { Transaction, AIAnalysisResult, StressLevel } from './types.ts';
 
 const getAI = () => {
   if (!process.env.API_KEY) {
